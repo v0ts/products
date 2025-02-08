@@ -7,12 +7,12 @@ export const createMarkup = (productsData)=>{
             <p class="product-price">${obj.price}</p>
             <p class="product-sort">${obj.description}</p>
             <img src="${obj.image}" class="product-img"></img>
-<button class="edit-btn">
+<button class="edit-btn" type="button">
   <span class="transition"></span>
   <span class="gradient"></span>
   <span class="label">Edit</span>
 </button>
-<button class="delete-btn">
+<button class="delete-btn" type="button">
   <span class="transition"></span>
   <span class="gradient"></span>
   <span class="label">Delete</span>

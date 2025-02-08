@@ -7,7 +7,7 @@ export const deleteProduct = () =>{
     const deleteBtnArr = document.querySelectorAll('.delete-btn')
     deleteBtnArr.forEach(deleteBtn => {
         deleteBtn.addEventListener('click', async ()=>{
-            await deleteProductApi(deleteBtn.parentElement.id).then(data => data)
+            await deleteProductApi(deleteBtn.parentElement.dataset.id).then(data => data)
             await getProductsAPI().then(data=>{createMarkup(data); deleteProduct(); openModal()}) 
         })
     })
