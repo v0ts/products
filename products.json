@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "name": "apple",
+      "description": "fruit",
+      "price": 43,
+      "image": "https://img.fozzyshop.com.ua/232947-thickbox_default/yabloki-ukrainskie.jpg",
+      "id": "4170"
+    },
+    {
+      "name": "kiwi",
+      "description": "fruit",
+      "price": 54,
+      "image": "https://www.harbuz.info/wp-content/uploads/2018/04/Banany.jpg",
+      "id": "5907"
+    }
+  ]
+}
